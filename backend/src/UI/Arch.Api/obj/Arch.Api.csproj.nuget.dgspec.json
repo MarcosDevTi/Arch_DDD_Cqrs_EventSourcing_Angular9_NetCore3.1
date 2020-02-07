@@ -41,6 +41,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityframeworkCore.Design": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Microsoft.EntityframeworkCore.Sqlserver": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
